@@ -1,4 +1,4 @@
-# Compiladores
+# Compilador GYH
 Compilador desenvolvido para a disciplina de Compiladores - UTFPR/AP.
 O compilador foi desenvolvido para a linguagem GYH, ele realiza as três etapas:
 - Análise Léxica;
