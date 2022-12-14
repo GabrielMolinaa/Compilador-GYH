@@ -1,0 +1,24 @@
+#Programa nao tem erro sintático
+
+:DEC
+
+numero:REAL
+cont: REAL
+
+:PROG 
+# Calcula quanto numeros faltam para chegar em 10
+IMPRIMIR "Digite um numero menor que 10"
+LER numero
+SE numero < 10 ENTAO
+INI
+ENQTO numero < 10
+INI
+numero := numero+1
+cont := cont+1
+FIM
+FIM
+
+SENAO numero := 0
+IMPRIMIR "Faltam" IMPRIMIR cont IMPRIMIR "para chegar ate 10"
+
+
